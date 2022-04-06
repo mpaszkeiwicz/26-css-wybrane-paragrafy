@@ -1,0 +1,15 @@
+p{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+p:nth-child(-n+3){
+    background: blue;
+
+}
+p:nth-child(5){
+    opacity: 0.5;
+}
+p:nth-child(7){
+    opacity: 0.5;
+}
